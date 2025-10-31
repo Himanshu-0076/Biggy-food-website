@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import SignUp from './Pages/SignUp'
 import SignIn from './Pages/SignIn'
 
+export const serverUrl = "http://localhost:8000"
 
 function App() {
   const [count, setCount] = useState(0)
